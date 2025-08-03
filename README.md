@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Chonkie 🦛</h1>
 	<p><b>A lightweight, fast chunking library for text and data processing</b></p>
-	<a href="https://chonkie.ai/">Website</a> | <a href="https://not-lain.github.io/">Maintainer</a>
+	<a href="https://chonkie.ai/" target="_blank">Website</a> | <a href="https://not-lain.github.io/" target="_blank">Maintainer</a>
 </div>
 
 ---
