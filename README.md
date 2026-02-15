@@ -1,60 +1,29 @@
-<div align="center">
-	<h1>Chonkie 🦛</h1>
-	<p><b>A lightweight, fast chunking library for text and data processing</b></p>
-	<a href="https://chonkie.ai/" target="_blank">Website</a> | <a href="https://not-lain.github.io/" target="_blank">Maintainer</a>
-</div>
 
----
-
-## Overview
-
-Chonkie is a blazing-fast, lightweight library designed to efficiently chunk text and data for downstream processing, search, and machine learning applications. Built for speed and simplicity, Chonkie helps you break down large datasets or documents into manageable pieces.
-
-## Features
-
-- 🚀 **Fast and lightweight**
-- 🧩 **Flexible chunking strategies**
-- � **Easy integration**
-- 🛠️ **Minimal dependencies**
-
-## Installation
-
-```bash
-pip install chonkie[all]
-```
-
-## Usage
-
-```python
-# First import the chunker you want from Chonkie 
-from chonkie import TokenChunker
-
-# Initialize the chunker
-chunker = TokenChunker() # defaults to using GPT2 tokenizer
-
-# Here's some text to chunk
-text = """Woah! Chonkie, the chunking library is so cool!"""
-
-# Chunk some text
-chunks = chunker(text)
-
-# Access chunks
-for chunk in chunks:
-    print(f"Chunk: {chunk.text}")
-    print(f"Tokens: {chunk.token_count}")
-
-```
-
-## Contributing
-
-Contributions are welcome! Please open issues or pull requests to help improve Chonkie.
-
-## Maintainer
-
-This is the work account for [not-lain](https://github.com/not-lain) and is intended for maintaining and contributing to [Chonkie 🦛](https://chonkie.ai/).
-
----
+<p align="center">
+	<img src="https://readme-typing-svg.herokuapp.com/?lines=building+things+...+🔨&center=true&size=30">
+</p>
 
 <div align="center">
-	<sub>Made with ❤️ for the open-source community</sub>
+	<a href="https://www.linkedin.com/in/hafedh-hichri/" target="_blank">
+		<img src ="https://img.shields.io/badge/-hafedh-hichri?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hafedh-hichri/"/>
+	</a>
+	<a href="https://x.com/not_so_lain" target="_blank">
+		<img src="https://img.shields.io/badge/-@not_so_lain-181818?style=flat&logo=X&logoColor=white&link=https://twitter.com/not_so_lain" />
+	</a>
+	<a href="https://github.com/not-lain" target="_blank">
+		<img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" />
+	</a>
+	<a href="https://chonkie.ai/" target="_blank">
+		<img src="https://img.shields.io/badge/-Chonkie🦛-purple?style=flat" />
+	</a>
 </div>
+
+<br>
+
+<br><br>
+<hr>
+<br><br>
+
+<p align="center">
+	This is the work account for <a href="https://github.com/not-lain">not-lain</a> and is intended for maintaining and contributing to <a href="https://chonkie.ai/">Chonkie 🦛</a>.
+</p>
